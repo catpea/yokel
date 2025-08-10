@@ -1,17 +1,14 @@
 {
   "name": "yokel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage local NPM dependencies with automatic linking for streamlined development workflows",
-
   "bin": {
     "yokel": "./index.js"
   },
-
   "scripts": {
     "test": "node --test",
     "save": "git add .; git commit -m 'Updated Release'; npm version patch; npm publish; git push --follow-tags;"
   },
-
   "keywords": [
     "npm",
     "local",
@@ -23,14 +20,12 @@
     "local-packages",
     "monorepo"
   ],
-
   "dependencies": {
     "commander": "^12.0.0",
     "chalk": "^5.3.0",
     "ora": "^8.0.1"
   },
-
- "author": "@catpea",
+  "author": "@catpea",
   "license": "GPL",
   "repository": {
     "type": "git",
@@ -39,7 +34,5 @@
   "bugs": {
     "url": "https://github.com/catpea/yokel/issues"
   },
-
   "homepage": "https://github.com/catpea/yokel#readme"
-
 }
