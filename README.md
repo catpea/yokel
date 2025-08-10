@@ -154,24 +154,3 @@ yokel i ../my-local-package
 2. **Automation** - The `postinstall` hook can automatically link dependencies after `npm install`
 3. **Clarity** - The `localDependencies` section clearly shows which packages are linked locally
 4. **Version Tracking** - Maintains version information for all local dependencies
-
-## Requirements
-
-- Node.js >= 18.0.0
-- npm >= 8.0.0
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-MIT
-
-## Author
-
-Your Name
-
----
-
-Made with ❤️ for developers who work with local packages
