@@ -1,7 +1,7 @@
 {
   "name": "yokel",
-  "version": "1.0.3",
-  "type":"module",
+  "version": "1.0.4",
+  "type": "module",
   "description": "Manage local NPM dependencies with automatic linking for streamlined development workflows",
   "bin": {
     "yokel": "index.js"
